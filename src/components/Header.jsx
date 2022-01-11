@@ -1,5 +1,7 @@
 import React from 'react'
+import { Growbis } from './Growbis'
 import logo from "../files/logo.png"
+import { Request } from './Request'
 
 export const Header = () => {
     return (
@@ -22,7 +24,7 @@ export const Header = () => {
                 </div>
             </header>
             {/* navbar  */}
-                <nav className="navbar navbar-expand-lg navbar-light bg-white p-3">
+                <nav className="navbar navbar-expand-lg navbar-light bg-white sticky-top p-3">
                     <div className="container-fluid">
                         <a className="navbar-brand" href="#"><img src={logo} alt="logo" /></a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,12 +60,14 @@ export const Header = () => {
                 </nav>
             <div className="header row">
                 <div className="col-6 p-5">
-                    <h1 className="text-center">
-                        <strong>Why Sell on <b className='text-danger'> Anaizan</b></strong>
-                    </h1>
+                    <h1 className="text-center"><b className='d-flex p-5'>Why Sell on <p className='text-danger'> &nbsp;Anaizan</p></b></h1>
+                    <p style={{width:"500px", marginTop:"-50px", marginBottom:"120px"}} className='text-start'>Anaizan.com makes ecommerce possible for sellers around the world, connecting you with new customers and the tools necessary to do business on a global scale.</p>
                 </div>
-                <div className="col-6"></div>
+                <div className="col im"></div>
+                
             </div>
+             <Growbis />
+             <Request />
         </div>
     )
 }
