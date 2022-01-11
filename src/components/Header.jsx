@@ -26,33 +26,33 @@ export const Header = () => {
             {/* navbar  */}
                 <nav className="navbar navbar-expand-lg navbar-light bg-white sticky-top p-3">
                     <div className="container-fluid">
-                        <a className="navbar-brand" href="#"><img src={logo} alt="logo" /></a>
+                        <p className="navbar-brand"><img src={logo} alt="logo" /></p>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="navbar-nav">
                                 <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#">Platform <i className="dropdown-toggle text-danger mt-1" role="button" data-bs-toggle="dropdown"></i> </a>
+                                    <p className="nav-link active" aria-current="page">Platform <i className="dropdown-toggle text-danger mt-1" role="button" data-bs-toggle="dropdown"></i> </p>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Solution <i className="dropdown-toggle text-danger mt-1" role="button" data-bs-toggle="dropdown"></i> </a>
+                                    <p className="nav-link">Solution <i className="dropdown-toggle text-danger mt-1" role="button" data-bs-toggle="dropdown"></i> </p>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Pricing  </a>
+                                    <p className="nav-link">Pricing  </p>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Success Stories  </a>
+                                    <p className="nav-link">Success Stories  </p>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link ">Resources <i className="dropdown-toggle text-danger mt-1" role="button" data-bs-toggle="dropdown"></i> </a>
+                                    <p className="nav-link ">Resources <i className="dropdown-toggle text-danger mt-1" role="button" data-bs-toggle="dropdown"></i> </p>
                                 </li>
                             </ul>
                             <ul className="navbar-nav">
                                 <li className="nav-item">
-                                    <a href="#" className="nav-link sell text-white">
+                                    <p className="nav-link sell text-white">
                                         Start Selling
-                                    </a>
+                                    </p>
                                 </li>
                             </ul>
                         </div>
