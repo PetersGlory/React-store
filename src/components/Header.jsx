@@ -10,13 +10,13 @@ export const Header = () => {
             {/* topnav */}
             <header className="text-white" style={header.header}>
                 <div className="row container-fluid">
-                    <div className="col-3 d-flex">
+                    <div className="col-3 d-flex" id='links'>
                         <div className="mr-5">&nbsp;&nbsp;WHISHLIST</div> &nbsp;&nbsp;   <div className=" ml-3" style={{color:'#6AB4FF'}}>PAINER</div> &nbsp;&nbsp;&nbsp;   <div className=" ml-3">MON COMPTE</div>
                     </div>
                     <div className="col-6">
                         Bienvenue Sur Votre Plateforme De Commerce en Ligm
                     </div>
-                    <div className="col-3 row">
+                    <div className="col-3 row" id='links'>
                         <i className='fa fa-instagram col' style={{fontSize:"20px"}}></i>
                         <i className="fa fa-youtube col" style={{fontSize:"20px"}}></i>
                         <i className="fa fa-facebook col" style={{fontSize:"20px"}}></i>
@@ -61,7 +61,7 @@ export const Header = () => {
                     </div>
                 </nav>
             <div className="header row">
-                <div className="col-6 p-5">
+                <div className="col-6" style={{paddingTop:"5%",paddingLeft:"11%"}}>
                     <h1 className="text-center"><b className='d-flex p-5'>Why Sell on <p className='text-danger'> &nbsp;Anaizan</p></b></h1>
                     <p style={{width:"500px", marginTop:"-50px", marginBottom:"120px"}} className='text-start'>Anaizan.com makes ecommerce possible for sellers around the world, connecting you with new customers and the tools necessary to do business on a global scale.</p>
                 </div>
