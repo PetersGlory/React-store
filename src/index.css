@@ -81,3 +81,10 @@ font-weight: normal;
 font-size: 16px;
 line-height: 26px;
 }
+
+.lmm{
+  background-image: url(./files/back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5%;
+}
