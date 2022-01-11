@@ -4,8 +4,8 @@ import log from "../files/group2.png"
 export const Request = () => {
     return (
         <div>
-            <div className="container-fluid mt-3">
-                <div className="container mt-3">
+            <div className="container-fluid mt-5">
+                <div className="container mt-5">
                     <div>
                         <h2 style={{textTransform:"capitalize",}}>
                             Get discovered and increase sales with 
@@ -23,9 +23,18 @@ export const Request = () => {
                     <div>
                         <img src={log} alt="group1" />
                     </div>
+                    <br /> 
+                    <br />
                 </div>
-                <div className="container lmm">
-                    
+                <div className="container lmm mb-5">
+                    <h1 className="text-white mb-2" style={{textTransform:"capitalize",}}>
+                        Ready to grow your <br /> business
+                    </h1>
+                    <div className="container row">
+                        <button className="btn col-5 btn-danger p-3" style={{borderRadius:"30px"}}>Chat with Consultant</button>
+                            <div className="col-2"></div>
+                        <button className="btn col-5 p-3 border text-white" style={{borderRadius:"30px"}}>Start Selling</button>
+                    </div>
                 </div>
             </div>
         </div>

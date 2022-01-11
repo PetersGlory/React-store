@@ -2,12 +2,13 @@ import React from 'react'
 import { Growbis } from './Growbis'
 import logo from "../files/logo.png"
 import { Request } from './Request'
+import { Footers } from './Footers'
 
 export const Header = () => {
     return (
         <div>
             {/* topnav */}
-            <header class="text-white" style={header.header}>
+            <header className="text-white" style={header.header}>
                 <div className="row container-fluid">
                     <div className="col-3 d-flex">
                         <div className="mr-5">&nbsp;&nbsp;WHISHLIST</div> &nbsp;&nbsp;   <div className=" ml-3" style={{color:'#6AB4FF'}}>PAINER</div> &nbsp;&nbsp;&nbsp;   <div className=" ml-3">MON COMPTE</div>
@@ -47,14 +48,15 @@ export const Header = () => {
                                 <li className="nav-item">
                                     <p className="nav-link ">Resources <i className="dropdown-toggle text-danger mt-1" role="button" data-bs-toggle="dropdown"></i> </p>
                                 </li>
-                            </ul>
-                            <ul className="navbar-nav">
                                 <li className="nav-item">
                                     <p className="nav-link sell text-white">
                                         Start Selling
                                     </p>
                                 </li>
                             </ul>
+                            {/* <ul className="navbar-nav">
+                                
+                            </ul> */}
                         </div>
                     </div>
                 </nav>
@@ -66,8 +68,10 @@ export const Header = () => {
                 <div className="col im"></div>
                 
             </div>
+            <br />
              <Growbis />
              <Request />
+             <Footers />
         </div>
     )
 }

@@ -68,7 +68,6 @@ background: #FFFFFF;
 
 .h2, .h23{
   border-bottom: solid #FF9900;
-  /* border-width: 5px; */
   width: 20%;
   /* text */
 }
@@ -86,5 +85,17 @@ line-height: 26px;
   background-image: url(./files/back.png);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 5%;
+  padding: 10%;
+  border-radius: 10px;
+}
+
+footer{
+/* justify-content: space-between; */
+  background-color: #424242;
+}
+
+.col-3 ul .nav-item{
+  text-align: start;
+  width: 90%;
+  color: rgb(165, 165, 165);
 }
